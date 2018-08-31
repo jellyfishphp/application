@@ -19,4 +19,3 @@ coverage:
   enabled: true
   include:
     - src/*
-    - tests/*
