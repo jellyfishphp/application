@@ -10,6 +10,7 @@
   ],
   "require": {
     "jellyfish/console": "dev-master",
+    "jellyfish/http": "dev-master",
     "jellyfish/kernel": "dev-master",
     "jellyfish/pimple": "dev-master"
   },
@@ -33,5 +34,8 @@
     "psr-4": {
       "Jellyfish\\Application": "tests/Jellyfish/Application"
     }
-  }
+  },
+  "bin": [
+    "bin/console"
+  ]
 }
